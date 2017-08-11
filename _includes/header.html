@@ -1,12 +1,21 @@
 <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+    <div class="nav-wrapper container"><a id="logo-container" class="brand-logo" href="{{ "/" | relative_url }}">Logo</a>
+    {% assign sorted_pages = site.pages | sort:"order" %}
+        {% if sorted_pages %}
+          <ul class="right hide-on-med-and-down">
+            <li><a href="{{ "/" | relative_url }}">Home </a></li>
+                {% for node in sorted_pages %}
+                    <li><a href="{{node.url}}">{{node.title}}</a></li>
+                {% endfor %}
+          </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">Home</a></li>
+                {% for node in sorted_pages %}
+                    <li><a href="{{node.url}}">{{node.title}}</a></li>
+                {% endfor %}
+          </ul>
+        {% endif %}
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
