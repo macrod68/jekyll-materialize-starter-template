@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+}
 .icon-block {
   padding: 0 15px;
 }
@@ -11,4 +14,26 @@
     width: 100px;
     height: 100px;
     margin: 20px auto;
+}
+hr {
+    background: #dadada;
+    height: 1px;
+    border: 0;
+    margin-bottom: 30px;
+}
+h1.page-title {
+    font-weight: 500;
+    font-size: 3em;
+    text-align: center;
+    color: #29b6f6;
+}
+.col.grid-example {
+    border: 1px solid #eee;
+    margin: 7px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    background-color: tomato;
+    color: white;
+    padding: 0;
 }
