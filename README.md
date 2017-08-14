@@ -6,9 +6,11 @@
 
 ![minima theme preview](/screenshot.png)
 
-[1]: https://github.com/jekyll/minima
-
 
 # License
 
-The theme is available as open source under the terms of the MIT License.
+The theme is available as open source under the terms of the [MIT License][2].
+
+
+[1]: https://github.com/jekyll/minima
+[2]: https://opensource.org/licenses/MIT
