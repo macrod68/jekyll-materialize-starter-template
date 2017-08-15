@@ -2,7 +2,7 @@
 
 *A Site Starter Materialize Templates.
 
-[The theme is a "fork" of the "minima"][1]
+The theme is a fork of the [minima][1]
 
 ![minima theme preview](/screenshot.png)
 
@@ -11,7 +11,7 @@
 
 The theme is available as open source under the terms of the [MIT License][2].
 
-[Materialize] a  modern responsive front-end framework based on Material Design
+[Materialize][3] a  modern responsive front-end framework based on Material Design
 
 Copyright © 2017 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
 
