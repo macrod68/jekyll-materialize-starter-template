@@ -9,7 +9,7 @@ The theme is a fork of the [minima][1]
 
 # License
 
-The theme is available as open source under the terms of the [MIT License][2].
+The theme is available as so I use this source [MIT License][2].
 
 [Materialize][3] a  modern responsive front-end framework based on Material Design
 
