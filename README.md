@@ -13,7 +13,7 @@ The theme is available as so I use this source [MIT License][2].
 
 [Materialize][3] a  modern responsive front-end framework based on Material Design
 
-Copyright © 2017 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
+Copyright © 2019 Marco Damiani. Powered by <a href="http://jekyllrb.com">Jekyll</a>
 
 [1]: https://github.com/jekyll/minima
 [2]: https://opensource.org/licenses/MIT
